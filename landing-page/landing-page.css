@@ -1,0 +1,31 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444444;
+}
+
+.icon-box {
+    border: 1px solid lightgray;
+    justify-content: space-around;
+    border-radius: 20px;
+    border-width: 2px;
+    justify-self: center;
+    max-width: 100px;
+    max-height: 120px;
+    padding: 1rem;
+    margin: 5px;
+    
+    
+}
+
+.dollar-box {
+    background-color: whitesmoke;
+    border-radius: 40px;
+    padding: 7px;
+    justify-content: space-between; 
+
+}
+
+.box3 {
+    background-color: white;
+}
+
