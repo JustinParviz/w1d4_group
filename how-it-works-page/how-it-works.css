@@ -3,11 +3,6 @@
 }
 
 
-body{
-
-}
-
-
 hr {
     width: 50%;
     margin-left: 25%;
@@ -36,7 +31,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: #3350f1;
     color: white;
 }
 
@@ -61,7 +56,7 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: blue;
+    background-color: #3350f1;
     color: white;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -71,6 +66,95 @@ hr {
 
 /* Below are the CSS Styles for the Header that will also be used for Razvan's Landing page */
 
+.header {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
 .header-info {
     color: gray;
+}
+
+
+.header-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.sign-up-button {
+    color: white;
+    background-color: #3350f1;
+    border: 1px solid #3350f1;
+    padding: 20px;
+    width: 15px;
+    height: 5px;
+    border-radius: 10px;
+}
+
+
+.chat-button {
+    color:#0d6efd;
+    background-color: white;
+    border: 1px solid #3350f1;
+    padding: 20px;
+    width: ;
+    height: ;
+    border-radius: 10px;
+}
+
+
+/*      Footer Start      */
+
+.footer {
+    background: #3350f1;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer >h1 {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 22px;
+    
+}
+
+.footer >h2 {
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.get-started {
+    color: white;
+    background: #85d043;
+}
+
+.get-started:hover {
+    background: white;
+}
+
+.chat {
+    background: white;
+    color: #3350f1;
+}
+
+.chat:hover {
+    background: #85d043;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 30px;
 }
