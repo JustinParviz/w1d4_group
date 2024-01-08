@@ -3,6 +3,57 @@
 }
 
 
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+
+.navbar a.right {
+    float: right;
+}
+
+
+.navbar a:hover {
+    color: #3350f1;
+}
+
+
+.navbar-sign-in-button {
+    color: #3350f1;
+    background-color: white;
+    border: 1px solid #3350f1;
+}
+
+
+.navbar-sign-in-button a:hover {
+    color: #3350f1;
+}
+
+
+.navbar-try-it-free-button {
+    color: white;
+    background-color: #3350f1;
+    border: 1px solid #3350f1;
+}
+
+
+.navbar-try-it-free-button a:hover {
+    color: white;
+}
+
+
 hr {
     width: 50%;
     margin-left: 25%;
@@ -21,8 +72,7 @@ hr {
 
 
 .collect-info-container {
-    border: solid 2px grey;
-    border-radius: 20px;
+    margin-bottom: 150px;
 }
 
 
@@ -33,6 +83,10 @@ hr {
     align-items: center;
     background-color: #3350f1;
     color: white;
+    gap: 50px;
+    border: solid 2px grey;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 
@@ -41,12 +95,11 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 150px;
-    padding-bottom: 80px;
 }
 
 
 .get-paid-container {
+    margin-top: 80px;
     margin-bottom: 100px;
 }
 
@@ -61,6 +114,7 @@ hr {
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border: solid 2px grey;
+    gap: 50px;
 }
 
 
@@ -69,8 +123,7 @@ hr {
 .header {
     display: flex;
     flex-direction: column;
-
-
+    justify-content: flex-start;
 }
 
 
@@ -87,29 +140,39 @@ hr {
     margin-bottom: 10px;
 }
 
+
 .sign-up-button {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     color: white;
     background-color: #3350f1;
     border: 1px solid #3350f1;
     padding: 20px;
-    width: 15px;
-    height: 5px;
+    width: 160px;
+    height: 40px;
     border-radius: 10px;
 }
 
 
 .chat-button {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     color:#0d6efd;
     background-color: white;
     border: 1px solid #3350f1;
     padding: 20px;
-    width: ;
-    height: ;
+    width: 160px;
+    height: 40px;
     border-radius: 10px;
 }
 
 
 /*      Footer Start      */
+
 
 .footer {
     background: #3350f1;
@@ -120,13 +183,14 @@ hr {
     align-items: center;
     flex-direction: column;
     gap: 10px;
+    padding-bottom: 70px;
 }
 
 .footer >h1 {
     margin-top: 20px;
     font-weight: 700;
     font-size: 22px;
-    
+
 }
 
 .footer >h2 {
