@@ -8,41 +8,50 @@
     display: flex;
     min-height: 100vh;
     color: #fff;
-    background-color: #0000ff;
+    background-color: white;
 }
 
 .graphic-side {
-    flex-basis: 50%;
+    flex-basis: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding: 50px;
+    padding: 100px;
     position: relative;
-    overflow: hidden;
-    background-image: url("../images/Group\ 15.png"); 
+    /* overflow: hidden; */
+    /* background-image: url("../images/Group\ 15.png");  */
+    /* background-image: url(../images/Ellipse\ -1.png); */
+    /* background-color: aqua;
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 }
 
 .graphic-side::before {
     content: '';
     position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 200%; 
-    height: 100%;
-    background-color: #0000ff;
+    width: 200%;
+    height: 200%;
+    background-image: url(../images/Ellipse\ -1.png);
+    background-color: blue; /* Adjust the color to match your design */
     border-radius: 50%;
-    transform: translateX(50%);
-    z-index: -1; 
-    clip-path: url("../images/Ellipse\ -1.png"); 
-    clip-path: ellipse(75% 100% at 100% 100%);
+    transform: translate(-50%, -50%);
+    bottom: 0;
+    right: 50%;
+    z-index: -1; /* Ensure it's behind the content */
+  }
+/*   
+  .graphic-side img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1; /* On top of the blue ellipse, but under the content */
+    /* Set width and height as needed, or use object-fit 
+  }*/  
 
-}
 
 .form-side {
-    flex-basis: 50%;
+    flex-basis: 40%;
     background-color: #fff;
     color: #000;
     display: flex;
