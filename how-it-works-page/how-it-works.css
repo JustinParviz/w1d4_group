@@ -1,0 +1,76 @@
+:root {
+    font-family: arial, helvetica, sans-serif;
+}
+
+
+body{
+
+}
+
+
+hr {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.how-it-works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+
+.collect-info-container {
+    border: solid 2px grey;
+    border-radius: 20px;
+}
+
+
+.collect-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+}
+
+
+.lorem-ipsum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    padding-bottom: 80px;
+}
+
+
+.get-paid-container {
+    margin-bottom: 100px;
+}
+
+
+.get-paid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid 2px grey;
+}
+
+
+/* Below are the CSS Styles for the Header that will also be used for Razvan's Landing page */
+
+.header-info {
+    color: gray;
+}
