@@ -16,39 +16,34 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     padding: 100px;
     position: relative;
-    /* overflow: hidden; */
-    /* background-image: url("../images/Group\ 15.png");  */
-    /* background-image: url(../images/Ellipse\ -1.png); */
-    /* background-color: aqua;
-    background-size: cover;
-    background-position: center; */
+    overflow: hidden;
+    text-align: left;
+    background-color: blue;
 }
 
-.graphic-side::before {
-    content: '';
-    position: absolute;
-    width: 200%;
-    height: 200%;
-    background-image: url(../images/Ellipse\ -1.png);
-    background-color: blue; /* Adjust the color to match your design */
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-    bottom: 0;
-    right: 50%;
-    z-index: -1; /* Ensure it's behind the content */
-  }
-/*   
-  .graphic-side img {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -1; /* On top of the blue ellipse, but under the content */
-    /* Set width and height as needed, or use object-fit 
-  }*/  
+.graphic-side h3 {
+    text-align: center;
+    margin-bottom: 20px; 
+}
 
+.signup-btn {
+    background-color: #0000ff;
+    color: white;
+    border: 3px solid white;
+    padding: 10px 60px;
+    border-radius: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px; 
+}
+
+.signup-btn:hover {
+    background-color: #7171cd;
+}
 
 .form-side {
     flex-basis: 40%;
@@ -102,7 +97,7 @@
     font-weight: bold;
 }
 
-.submit-button {
+.signin-btn {
     margin-top: 40px;
     margin-bottom: 20px;
     background-color: #0000ff;
@@ -114,8 +109,8 @@
     cursor: pointer;
 }
 
-.submit-button:hover {
-    background-color: #0000cc;
+.signin-btn:hover {
+    background-color: #7171cd;
 }
 
 .form-footer {
