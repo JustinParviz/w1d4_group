@@ -212,5 +212,29 @@ footer START */
     color: white;
     background-color: #3350f1; 
     border-radius: 100%;
-  }
+  
+}
 
+.element {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.solution {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+
+.solution >p {
+    width: 200px;
+}
+
+.title2 {
+    display: flex;
+    gap: 30px;
+}
