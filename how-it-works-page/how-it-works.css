@@ -3,6 +3,90 @@
 }
 
 
+hr {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.how-it-works {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    gap: 50px;
+}
+
+
+.how-it-works > h6{
+    font-size: 18px;
+}
+
+
+.how-it-works > p{
+    font-size: 18px;
+}
+
+
+.collect-info-container {
+    margin-bottom: 150px;
+}
+
+
+.collect-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3350f1;
+    color: white;
+    gap: 50px;
+    border: solid 2px grey;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 100px;
+    padding-right:100px;
+}
+
+
+.lorem-ipsum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+
+.get-paid-container {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+
+.get-paid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3350f1;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: solid 2px grey;
+    gap: 50px;
+    padding-left: 100px;
+    padding-right:100px;
+}
+
+
+/* Below are the CSS Styles for the Header that will also be used for Razvan's Landing page */
+
+
 .navbar {
     overflow: hidden;
     background-color: white;
@@ -54,81 +138,40 @@
 }
 
 
-hr {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+.nav-icon img { 
+    height: 40%;
+    width: 70%;
 }
 
-
-.how-it-works {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px;
-    padding-bottom: 60px;
-}
-
-
-.collect-info-container {
-    margin-bottom: 150px;
-}
-
-
-.collect-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #3350f1;
-    color: white;
-    gap: 50px;
-    border: solid 2px grey;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-
-.lorem-ipsum {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.get-paid-container {
-    margin-top: 80px;
-    margin-bottom: 100px;
-}
-
-
-.get-paid {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #3350f1;
-    color: white;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border: solid 2px grey;
-    gap: 50px;
-}
-
-
-/* Below are the CSS Styles for the Header that will also be used for Razvan's Landing page */
 
 .header {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    margin-top: 50px;
 }
 
 
 .header-info {
     color: gray;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+
+.header > h1{
+    font-size: 65px;
+    margin-bottom: 15px;
+}
+
+
+.header > h3{
+    font-size: 33px;
+}
+
+
+.header i{
+    color: #3350f1;
 }
 
 
@@ -136,8 +179,8 @@ hr {
     display: flex;
     justify-content: flex-start;
     gap: 10px;
-    margin-top: 15px;
-    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
 
@@ -150,8 +193,8 @@ hr {
     background-color: #3350f1;
     border: 1px solid #3350f1;
     padding: 20px;
-    width: 160px;
-    height: 40px;
+    width: 200px;
+    height: 60px;
     border-radius: 10px;
 }
 
@@ -165,13 +208,20 @@ hr {
     background-color: white;
     border: 1px solid #3350f1;
     padding: 20px;
-    width: 160px;
-    height: 40px;
+    width: 200px;
+    height: 60px;
     border-radius: 10px;
 }
 
+.double-tap {
+    color: gray;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
 
-/*      Footer Start      */
+
+
+/* Footer Start - CSS Styles from Razvan's Landing page */
 
 
 .footer {
@@ -221,4 +271,12 @@ hr {
     display: flex;
     gap: 35px;
     margin-bottom: 30px;
+}
+
+
+.button {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px 10px;
+    border-radius: 5px 10px;
 }
